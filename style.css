@@ -1,7 +1,19 @@
 .recipes {
     font-size: 24px;
-    line-height: 2;
     font-family: monospace;
+    text-align: center;
+    display: inline;
+    text-indent: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+}
+
+.recipes li ~ li:before {
+    content: "| ";
+    color: black;
 }
 
 .page-top {
